@@ -1,0 +1,49 @@
+Given a number N, return true if and only if it is a confusing number, which satisfies the following condition:
+We can rotate digits by 180 degrees to form new digits. When 0, 1, 6, 8, 9 are rotated 180 degrees, they become 0, 1, 9, 8, 6 respectively. 
+When 2, 3, 4, 5 and 7 are rotated 180 degrees, they become invalid. A confusing number is a number that when rotated 180 degrees becomes a 
+different number with each digit valid.
+
+Input Description:
+Number N as integer as input.
+
+Output Description:
+Print True or False
+
+Sample Input:
+89
+
+Sample Output:
+True
+
+Explanation:
+We get 68 after rotating 89, 86 is a valid number and 86!=89.
+
+Sample input:
+222
+
+Sample Output:
+False
+
+Sample Input:
+619
+
+Sample Output:
+False
+
+Sample Input:
+6
+
+Sample Output:
+True
+
+Sample Input:
+25
+
+Sample Output:
+False
+
+Sample Input:
+111
+
+Sample Output:
+False
